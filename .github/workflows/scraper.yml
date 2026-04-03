@@ -2,8 +2,11 @@ name: Idealista Scraper
 
 on:
   schedule:
-    - cron: '0, 4, 8, 12,14, 18,20 * * *'  # 3 veces al día: 8h, 14h y 20h (UTC)
-  workflow_dispatch:             # Botón para lanzarlo manualmente también
+    - cron: '0 4,8,12,14,18,20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
