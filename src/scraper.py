@@ -22,7 +22,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAX_PRICE = 1200
 
 # Define the search URL with filters (modify as needed)
-IDEALISTA_URL = f"https://www.idealista.com/alquiler-viviendas/barcelona-barcelona/con-precio-hasta_{MAX_PRICE},metros-cuadrados-mas-de_40,publicado_ultimas-24-horas,alquiler-de-larga-temporada/?ordenado-por=fecha-publicacion-desc"
+IDEALISTA_URL = f"https://www.idealista.com/venta-viviendas/tres-cantos-madrid/con-precio-hasta_{MAX_PRICE},metros-cuadrados-mas-de_40,publicado_ultimas-24-horas,alquiler-de-larga-temporada/?ordenado-por=fecha-publicacion-desc"
 
 # Neighborhoods to exclude
 EXCLUDED_AREAS = ["Raval", "Gòtic", "Gotico", "Gótico", "Gotic", "Barceloneta", "Estudio"]
